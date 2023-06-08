@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <nav class="nav">
+    <h1>TODAY'S NEWS</h1>
+    <ul>
+      <li class="list"><a id="all"  href="#" onclick="views('all')">ALL</a></li>
+      <li class="list"><a href="#" onclick="views('national')">National</a></li>
+      <li class="list"><a href="#" onclick="views('business')">Business</a></li>
+      <li class="list"><a href="#" onclick="views('sports')">Sports</a></li>
+      <li class="list"><a href="#" onclick="views('world')">World</a></li>
+      <li><a href="#" for="cars" id="btn" ><span class="material-symbols-outlined">
+        menu
+        </span></a></li>
+    </ul>
+  </nav>
+  <div id="show">
+    <div class="canbtn">
+      <button id="canbtan"><span class="material-symbols-outlined">
+        close
+        </span></button>
+    </div>
+    <ul>
+      <li><a href="#" onclick="views('all')">ALL</a></li>
+      <li><a href="#" onclick="views('national')">National</a></li>
+      <li><a href="#" onclick="views('business')">Business</a></li>
+      <li><a href="#" onclick="views('sports')" >Sports</a></li>
+      <li><a href="#" onclick="views('world')">World</a></li>
+      <li><a href="#" onclick="views('politics')">Politics</a></li>
+      <li><a href="#" onclick="views('technology')">Technology</a></li>
+      <li><a href="#" onclick="views('startup')">Startup</a></li>
+      <li><a href="#" onclick="views('entertainment')">Entertainment</a></li>
+      <li><a href="#" onclick="views('miscellaneous')">Miscellaneous</a></li>
+      <li><a href="#" onclick="views('hatke')">Hatke</a></li>
+      <li><a href="#" onclick="views('science')">Science</a></li>
+      <li><a href="#" onclick="views('automobile')">automobile</a></li>
+    </ul>
+  </div>
+  <div class="loader"></div>
+  <div class="container"></div>
+  <script src="script.js"> 
+
+</script>
+</body>
+</html>
+
